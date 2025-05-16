@@ -1,0 +1,61 @@
+<!-- CSS Battle 2 - couldn't check score, I think fractionally off -->
+<div class="container">   
+    <div class='square'></div>
+    <div class="circle"></div>
+    <div class="c1"></div>
+    <div class="c2"></div>
+</div> 
+<style>
+* {
+margin: 0;
+padding: 0;
+box-margin: content-box;
+}
+body {
+background-color: #243D83;
+}
+/* Container to emulate size of css battle container */
+.container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border: 1px solid red;
+    margin: auto;
+}
+.square {
+width: 111px;
+height: 111px;
+transform: rotate(45deg); 
+background-color: #5AA4B7;
+position: absolute;
+left: 36%;
+top: 18%;
+}
+.circle {
+width: 160px;
+height: 160px;
+border-radius: 50%;
+background-color: #5AA4B7;
+position: absolute;
+left: 30%;
+top: 37%; 
+}
+.c1 {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background-color: #243D83;
+position: absolute;
+left: 80;
+top: 37%;
+}
+.c2 {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background-color: #243D83;
+position: absolute;
+right: 80;
+top: 37%;
+}
+</style>
